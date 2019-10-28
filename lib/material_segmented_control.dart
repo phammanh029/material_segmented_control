@@ -156,7 +156,7 @@ class _SegmentedControlState<T> extends State<MaterialSegmentedControl<T>>
       changed = true;
       _borderColor = borderColor;
     }
-    final Color pressedColor = widget.selectedColor.withOpacity(0.2);
+    final Color pressedColor = selectedColor.withOpacity(0.2);
     if (_pressedColor != pressedColor) {
       changed = true;
       _pressedColor = pressedColor;
